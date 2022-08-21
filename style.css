@@ -46,51 +46,63 @@ body{
     z-index: 20;
     position: fixed;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     width: 100vw;
-    height: 80px;
+    height: 11.7vh;
     margin-right: auto;
     margin-left: auto;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(85,20,20,1) 35%, rgba(106,15,15,1) 50%, rgba(85,20,20,1) 65%, rgba(0,0,0,1) 100%);
+    
 }
 
 .header li
 {
 width: 100%;
-margin-left: 30px;
+margin-left: 1vw;
 }
 
 .header .logo
 {
-    margin-left: 130px;
-    
+    margin-left: 9vw;
 }
 
+.header #clogo
+{
+    width:5vw;
+    height:9vh;
+}
+
+.header #cname{
+    width: 27vw;
+    height: 10vh;
+    padding-left: 5vw;
+}
 
 .header .navi
 {
     list-style: none;
     position: relative;
     display: flex;
-    margin-right: 70px;
+    margin-right: 4vw;
+    width:11vw;
+    height:3vh;
     
 }
 
 
 .parent{
     position: absolute;
-    min-height: calc(100vh - 80px);
-    height: calc(100vh - 80px);
+    min-height: 100vh;
+    height: 100vh;
    
 }
 
 .md{
     
     position: fixed;
-    margin-top: 80px;
+    margin-top: 11.3vh;
     width: 100vw;
     min-height: calc(100vh - 80px);
     height: calc(100vh - 80px);
@@ -101,9 +113,9 @@ margin-left: 30px;
     position: absolute;
     width: 0;
     height: 0;
-    border-top: calc(50vh) solid #1a0202;
+    border-top: calc(50vh ) solid #1a0202;
     border-right: 18vw solid transparent;
-    border-bottom: calc(50vh) solid #1a0202;
+    border-bottom: calc(50vh +  40px) solid #1a0202;
     border-left: 24vw solid #1a0202;
     left: 0;
     top: 0;
@@ -113,7 +125,7 @@ margin-left: 30px;
 
 
 .logobg{
-    max-width: 30%;
+    max-width: 30vw;
     position: absolute;
     height: auto;
     top: calc(24vh - 40px);
@@ -233,9 +245,9 @@ margin-right: 15px;
     margin: 0 0 0px;
 }
 
-.navbar{
+/* .navbar{
     
-}
+} */
 
 .navbar-nav>li>a {
     padding-top: 0px;
@@ -319,22 +331,22 @@ margin-right: 15px;
     
 
 #ci{
-    width: 40px;
-    height: 40px;
+    width: 2.8vw;
+    height: 5vh;
     position: absolute;
-    margin-bottom: 10px;
+    margin-bottom: 1vh;
 }
 
 #ct{
 
     color: white;
-    font-size: 25px;
-    padding-left: 42px;
+    font-size: 3.5vh;
+    padding-left: 3vw;
 } 
 
 .content-logo #ctt {
     position: absolute;
-    top: 10vh;
+    top: 4vh;
     right: 17vw;
     display: block;
     text-align: center;
@@ -347,7 +359,7 @@ margin-right: 15px;
     color: #db4d4d;
     text-align: justify;
     font-size: 3vh;
-    padding-bottom: 12vh;
+    padding-bottom: 23vh;
     padding-right: 5vw;
     padding-left: 16vw;
 }
@@ -356,7 +368,7 @@ margin-right: 15px;
     position: absolute;
     z-index: 14;
     color: grey;
-    bottom: 30vh;
+    bottom: 33vh;
     right: 9vw;
     font-size: 2.3vh;
 }
@@ -368,15 +380,15 @@ margin-right: 15px;
     color: white;
     text-decoration: none;
     text-transform:uppercase;
-    font-size: 2.5vh;
-    letter-spacing: 0.4em;
+    font-size: 2vh;
+    letter-spacing: 0.4vw;
     font-weight:400;
     padding: 0px 10px;
     transition: 0.5s;
     z-index: 16;
     border-radius: 15px;
-    bottom: 16vh;
-    right: 20vw;
+    bottom: 18vh;
+    right: 19vw;
     font-weight: bold;
     
     
@@ -409,7 +421,7 @@ margin-right: 15px;
     background: transparent;
     z-index: 17;
     border: transparent;
-    bottom: 30vh;
+    bottom: 33vh;
     right: 7vw;
 
    }
@@ -570,12 +582,12 @@ margin-right: 15px;
 
    #soon{
     position: absolute;
-    display: flex;
    justify-content: center;
    align-items: center;
    min-height: 100%;  
    width: 100%;
-   left: 6vw;
+   padding-left: 28vw;
+    padding-top: 35vh;
    }
 
    #soon h2::before{
