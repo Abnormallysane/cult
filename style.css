@@ -549,7 +549,13 @@ margin-right: 15px;
           border-bottom: 2vh solid #a34e4e;
           width: 25vw;
        }
- 
+       
+       .swiper-slide h2{
+        padding-top: 25vh;
+        font-size: 6vh;
+        width: 25vw;
+     }
+
        .swiper-slide ul{
           padding-top: 2vh;
           padding-left: 4vw;
